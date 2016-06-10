@@ -1858,6 +1858,15 @@ h1 {
     line-height: 1.35em;
 }
 
+h1.major:after {
+    background: rgba(144, 144, 144, 0.5);
+    content: '';
+    display: inline-block;
+    height: 1px;
+    margin-top: 1.5em;
+    width: 6em;
+}
+
 h2 {
     font-size: 2em;
     line-height: 1.35em;
