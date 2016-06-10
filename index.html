@@ -8,6 +8,13 @@
         <link rel="stylesheet" href="assets/css/main.css" />
         <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
         <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+        <script type="text/javascript">
+            function unhide(divID) {
+                var item = document.getElementById(divID);
+                if (item) {
+                    item.className=(item.className=='hidden')?'unhidden':'hidden';
+                }}
+        </script>
     </head>
     <body>
         <!-- Header -->
@@ -63,15 +70,50 @@
                     <header align="left">
                         <h1>Practical Applications</h1>
                     </header>
-                    <p>This law is most prominently used in the field of Forensics and similarly related sciences to determine at what time precisely <br>the victim passed away. This can be crucial to ongoing investigations and in the admonishing of the criminals in question.</p>
+                    <p>This law is most prominently used in the field of Forensics and similarly related sciences to determine at precisely <br>what time the victim passed away. This can be crucial to ongoing investigations and trials of notorious criminals.</p>
                     <img src="images/victim.jpg">
                 </div>
+                <center>
+                    <br><h1 class="major"></h1>
+                </center>
+            </div>
+        </section>
+
+        <!-- Four -->
+        <section id="four" class="main style1 special">
+            <div class="container">
+                <header align="left">
+                    <div class="12u$">
+                        <h1>Practice Problem</h1>
+                        <p>A corpse was discovered in a motel room at midnight, and its temperature was 80&deg;F. The room's temperature was kept at a constant of 60&deg;F, and was kept that way for more than 24 hours. Two hours later, the temperature of the corpse dropped to 75&deg;F. What is the approximate time of death?</p>
+                    </div>
+                    <ul class="actions" align="center">
+                        <li><a href="#five" class="button scrolly">Reveal Answer</a></li>
+                    </ul>
+                </header>
+                <center>
+                    <br><h1 class="major"></h1>
+                </center>
+            </div>
+        </section>
+
+        <!-- Five -->
+        <section id="five" class="main style1 special">
+            <div class="container">
+                <header align="left">
+                    <div class="12u$">
+                        <h1>Answer</h1>
+                        <center>
+                            <img src="images/answer.png">
+                        </center>
+                    </div>
+                </header>
             </div>
         </section>
 
         <!-- Works Cited -->
         <section id="two" class="main style2">
-            <center><a href="workscited.pdf" class="button">Works Cited</a></center>
+            <center><a href="/workscited.pdf" class="button">Works Cited</a></center>
         </section>
         <!-- Footer -->
         <section id="footer">
